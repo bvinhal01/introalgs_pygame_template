@@ -6,128 +6,51 @@ A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolv
 
 ## 1. Nome provisório do jogo
 
-Escreva aqui o nome provisório do jogo.
-
-Exemplo:
-
-> Corrida dos Obstáculos
+CobraRun
 
 ## 2. Integrantes do grupo
 
 Liste os integrantes do grupo.
 
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+- Nome 1: Bernardo Vinhal De Carvalho Teixeira
 
 ## 3. Tipo de jogo
 
-Indique o tipo de jogo que será desenvolvido.
-
-Exemplos:
-
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
-
 Tipo escolhido pelo grupo:
 
-> Escreva aqui.
+> jogo de coleta de itens / Snake;
 
 ## 4. Descrição geral do jogo
 
-Explique, em poucas linhas, como o jogo funcionará.
-
-Procure responder:
-
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
-
-Descrição:
-
-> Escreva aqui.
+A proposta é um terminal simples, com o controle total do usuário, onde a cobra vai ficando cada vez maior, a cada objeto que o jogador passa por cima (comido prla cobra);
+Direcionais para norte, sul, leste e oeste.
+A grande questão é que a cobra fica maior a cada item ingerido, permitindo o aumento significativo da dificuldade.
 
 ## 5. Objetivo do jogador
 
-Explique qual é o objetivo principal do jogador.
-
-Exemplos:
-
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
-
-Objetivo:
-
-> Escreva aqui.
+- O objetivo principal é coletar o maior número possível de itens e sobreviver pelo maior tempo possível;
 
 ## 6. Regras principais
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
-
-Regras do grupo:
-
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
+- Regra 1: O jogador começa com 3 vidas.
+- Regra 2: Cada objeto ingerido aumenta em tamanho 1 o personagem.
+- Regra 3: Cada colisão com obstáculo remove 1 vida.
+- Regra 3: A partida termina quando as vidas chegam a zero.
+- Regra 4 O jogador vence se alcançar 100 pontos.
 
 ## 7. Condição de vitória
 
-Explique como o jogador vence ou conclui o jogo.
-
-Exemplos:
-
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
-
 Condição de vitória:
 
-> Escreva aqui.
+> Atingir determinada pontuação e sobreviver até o tempo acabar;
 
 ## 8. Condição de derrota ou encerramento
 
-Explique como o jogador perde ou quando a partida termina.
-
-Exemplos:
+Condição de derrota ou encerramento:
 
 - perder todas as vidas;
 - acabar o tempo;
 - colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
-
-Condição de derrota ou encerramento:
-
-> Escreva aqui.
 
 ## 9. Elementos previstos no jogo
 
@@ -135,49 +58,29 @@ Descreva os principais elementos que farão parte do jogo.
 
 ## Jogador ou elemento principal
 
-Exemplo:
-
-> Um personagem controlado pelas setas do teclado.
-
 Descrição:
 
-> Escreva aqui.
+> Uma cobra controlado pelas setas do teclado.
 
 ## Obstáculos, inimigos ou desafios
 
-Exemplo:
-
-> Obstáculos aparecem em posições aleatórias e devem ser evitados.
-
 Descrição:
 
-> Escreva aqui.
+> Obstáculos estão no proprio tamanho do personagem.
 
 ## Itens, alvos ou objetos de interação
 
-Exemplo:
-
-> Moedas aparecem na tela e aumentam a pontuação quando coletadas.
-
 Descrição:
 
-> Escreva aqui.
+> > Frutas aparecem na tela e aumentam a pontuação quando coletadas.
 
 ## Pontuação, vidas, tempo ou progresso
 
-Exemplo:
+Descrição:
 
 > O jogador começa com 3 vidas e ganha 10 pontos por item coletado.
 
-Descrição:
-
-> Escreva aqui.
-
 ## 10. Controles previstos
-
-Informe os comandos que serão utilizados pelo jogador.
-
-Exemplo:
 
 - Seta para cima: mover para cima
 - Seta para baixo: mover para baixo
@@ -188,15 +91,17 @@ Exemplo:
 
 Controles do grupo:
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
+- Tecla/comando: Seta para cima: mover para cima
+- Tecla/comando: Seta para cima: mover para cima
+- Tecla/comando: Seta para baixo: mover para baixo
+- Tecla/comando: Seta para esquerda: mover para esquerda
+- Tecla/comando: Seta para direita: mover para direita
+- Tecla/comando: Espaço: realizar ação
+- Tecla/comando: ESC: sair do jogo
 
 ## 11. Organização inicial do código
 
-Explique como o grupo pretende organizar o código.
-
-Exemplo:
+Organização planejada:
 
 - `main.py`: inicia o jogo;
 - `src/jogo.py`: contém o loop principal;
@@ -204,50 +109,26 @@ Exemplo:
 - `src/funcoes.py`: contém funções auxiliares;
 - `src/dados.py`: contém funções de leitura e escrita de arquivos.
 
-Organização planejada:
-
-> Escreva aqui.
-
-
 ## 12. Recursos externos previstos
 
 Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
 
-Exemplo:
-
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
-
 Recursos previstos:
 
-> Escreva aqui.
-
-Caso não pretenda utilizar recursos externos, escreva:
-
-> Não pretendemos utilizar recursos externos.
+Não pretendemos utilizar recursos externos.
 
 ## 13. Principais dificuldades esperadas
 
 Liste as dificuldades que o grupo acredita que poderá enfrentar.
 
-Exemplos:
-
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
-
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+- Dificuldade 1: movimentação do jogador;
+- Dificuldade 2: colisão entre objetos;
+- Dificuldade 3: controle de tempo;
+- Dificuldade 4: organização do código;
+- Dificuldade 5: testes;
+- Dificuldade 6: exibição de textos na tela.
 
 ## 14. Escopo mínimo para a entrega final
 
@@ -255,32 +136,19 @@ Descreva qual será a versão mínima aceitável do jogo.
 
 Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
 
-Exemplo:
-
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
-
 Escopo mínimo:
 
-> Escreva aqui.
+>> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
+
 
 ## 15. Possíveis melhorias, caso haja tempo
 
 Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
 
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
 Melhorias possíveis:
 
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+- Melhoria 1: tela inicial;
+- Melhoria 2: sons;
+- Melhoria 3: animações;
+- Melhoria 4: diferentes personagens;
+- Melhoria 5: menu de pausa.
