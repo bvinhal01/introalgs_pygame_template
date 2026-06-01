@@ -1,40 +1,35 @@
 # Nome do Jogo
 
-Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
-
-Este repositório é um template para os grupos da disciplina. A proposta é começar com uma base funcional e evoluir o jogo ao longo do semestre.
+Snake Adventure
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
+- Gabriel Rodrigues Lima
+- Patrick da Lomba
+- Igor 
 - Nome do integrante 4
 
-## Estrutura do projeto
 
-- `main.py`: ponto de entrada da aplicação.
-- `src/`: código-fonte principal do jogo (loop, regras, sprites e dados).
-- `assets/`: imagens, fontes e sons.
-- `data/`: arquivos persistentes (recorde/ranking).
-- `tests/`: testes unitários com `pytest`.
-- `docs/`: documentação do projeto, incluindo proposta inicial.
+## Estrutura do Projeto
+
+- `main.py`: arquivo principal que inicia o jogo.
+- `src/`: código-fonte do jogo (movimentação da cobra, regras, pontuação e colisões).
+- `assets/`: imagens, ícones e sons utilizados no jogo.
+- `data/`: armazenamento do recorde do jogador.
+- `tests/`: testes das principais funcionalidades do jogo.
+- `docs/`: documentação do projeto, incluindo a proposta inicial e relatórios.
 
 ## Descrição do jogo
 
-Descreva brevemente a ideia principal do jogo.
 
-Exemplo:
 
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+O jogador controla uma cobra que se movimenta por um cenário coletando alimentos. Cada alimento coletado aumenta o tamanho da cobra e a pontuação do jogador. O desafio é evitar colisões enquanto busca alcançar a maior pontuação possível.
 
 ## Objetivo do jogador
 
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
+Coletar o maior número possível de alimentos sem colidir com as bordas do mapa ou com o próprio corpo da cobra.
 
-Exemplo:
 
-> O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
 
 ## Regras do jogo
 
@@ -42,23 +37,18 @@ Liste as principais regras do jogo.
 
 Exemplo:
 
-- O jogador se movimenta usando as setas do teclado.
-- Cada item coletado aumenta a pontuação.
-- Colidir com um obstáculo reduz a quantidade de vidas.
-- A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
+- A cobra se movimenta continuamente.
+- O jogador pode alterar a direção da cobra utilizando o teclado.
+- Cada alimento coletado aumenta o tamanho da cobra.
+- O jogador ganha pontos ao coletar alimentos.
+- O jogo termina caso ocorra uma colisão.acaba.
 
 ## Controles
 
-Informe as teclas ou comandos utilizados no jogo.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
+- Tecla W ou seta para cima: mover para cima.
+- Tecla S ou seta para baixo: mover para baixo.
+- Tecla A ou seta para esquerda: mover para esquerda.
+- Tecla D ou seta para direita: mover para direita.
 
 ## Como executar o projeto
 
