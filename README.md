@@ -1,4 +1,4 @@
-# Nome do Jogo
+# Jogo da cobrinha - pygame
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
@@ -6,10 +6,7 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+- Bernardo Vinhal De Carvalho Teixeira
 
 ## Estrutura do projeto
 
@@ -22,29 +19,17 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Descrição do jogo
 
-Descreva brevemente a ideia principal do jogo.
-
-Exemplo:
-
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+> O jogo consiste em controlar uma cobra que deve coletar os itens no mapa e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
 
 ## Objetivo do jogador
-
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
-
-Exemplo:
 
 > O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
 
 ## Regras do jogo
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
 - O jogador se movimenta usando as setas do teclado.
 - Cada item coletado aumenta a pontuação.
-- Colidir com um obstáculo reduz a quantidade de vidas.
+- Colidir com um obstáculo reduz a quantidade de vidas. ( max-3)
 - A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
 
 ## Controles
@@ -58,7 +43,7 @@ Exemplo:
 - Seta para esquerda: mover para esquerda
 - Seta para direita: mover para direita
 - Espaço: realizar ação
-- ESC: sair do jogo
+- ESC: menu
 
 ## Como executar o projeto
 
