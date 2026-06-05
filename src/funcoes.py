@@ -25,3 +25,10 @@ def limitar_valor(valor, minimo, maximo):
 def verificar_colisao(retangulo_1, retangulo_2):
     """Verifica sobreposição entre dois retângulos do Pygame."""
     return retangulo_1.colliderect(retangulo_2)
+
+
+def formatar_tempo(segundos):
+    """Converte segundos em formato MM:SS."""
+    minutos = segundos // 60
+    segs = segundos % 60
+    return f"{minutos:02d}:{segs:02d}"

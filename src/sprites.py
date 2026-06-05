@@ -1,5 +1,11 @@
 import pygame
-            
+
+def criar_quadrado(tamanho, cor):
+    """Cria um quadrado simples com a cor especificada."""
+    superficie = pygame.Surface((tamanho, tamanho))
+    superficie.fill(cor)
+    return superficie
+
 def pegar_sprite(local_arquivo, x, y, width, height, scale=1):
     """Corta um único elemento de uma spritesheet BMP e remove o fundo."""
     
@@ -13,8 +19,7 @@ def pegar_sprite(local_arquivo, x, y, width, height, scale=1):
     image.blit(sheet, (0, 0), (x, y, width, height))
     
     # 4. CONFIGURAÇÃO DA TRANSPARÊNCIA (O segredo para o BMP)
-    # Pegamos a cor do pixel no canto superior esquerdo (0,0) do recorte, 
-    # assumindo que o fundo do seu sprite começa ali.
+    # Pegamos a cor do pixel no canto superior esquerdo (0,0) do recorte
     cor_do_fundo = image.get_at((0, 0))
     
     # Dizemos ao Pygame para ignorar essa cor específica na hora de desenhar
