@@ -1,4 +1,4 @@
-# Jogo da cobrinha - pygame
+# Jogo da Cobrinha - Pygame
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
@@ -25,25 +25,38 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 > O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
 
+## Requisitos
+
+- Python 3.11+
+- Pygame
+- Pytest
+
 ## Regras do jogo
 
 - O jogador se movimenta usando as setas do teclado.
 - Cada item coletado aumenta a pontuação.
 - Colidir com um obstáculo reduz a quantidade de vidas. ( max-3)
-- A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
+
+A partida termina quando:
+- o jogador perde todas as vidas;
+- o tempo acaba;
+- a pontuação máxima é alcançada.
+
+## Funcionalidades
+
+- Sistema de pontuação
+- Sistema de vidas
+- Temporizador
+- Obstáculos
+- Crescimento da cobra
+- Salvamento de recorde em arquivo
 
 ## Controles
 
-Informe as teclas ou comandos utilizados no jogo.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: menu
+- ↑ Mover para cima
+- ↓ Mover para baixo
+- ← Mover para esquerda
+- → Mover para direita
 
 ## Como executar o projeto
 
@@ -62,15 +75,3 @@ python main.py
 python -m pytest
 ```
 
-## Checklist mínimo para entrega
-
-- Preencher este README com nome final, descrição real, regras e controles do jogo.
-- Atualizar `docs/proposta.MD` com a proposta do grupo.
-- Garantir que o jogo executa com `python main.py`.
-- Garantir que os testes passam com `pytest`.
-
-## Observações para os alunos
-
-- Mantenham o código organizado em módulos pequenos e com responsabilidade clara.
-- Comentem partes importantes da lógica, principalmente regras do jogo.
-- Registrem decisões técnicas no README do grupo ao longo do desenvolvimento.
