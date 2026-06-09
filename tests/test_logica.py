@@ -192,7 +192,7 @@ def test_verificar_colisao_cobra_sem_colisao():
 
 def test_verificar_colisao_cobra_com_colisao():
     """Deve detectar colisão quando cobra colide com ela mesma."""
-    cobra = [[100, 100], [80, 100], [60, 100], [80, 100]]  # Cabeça colidindo com corpo
+    cobra = [[100, 100], [80, 100], [60, 100], [100, 100]]  # Cabeça [100, 100] está no corpo
     assert verificar_colisao_cobra(cobra) is True
 
 
