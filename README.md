@@ -7,7 +7,7 @@ Snake Adventure
 - Gabriel Rodrigues Lima
 - Patrick da Lomba
 - Igor 
-- Nome do integrante 4
+- Bernardo Vinhal de Carvalho Teixeira
 
 
 ## Estrutura do Projeto
