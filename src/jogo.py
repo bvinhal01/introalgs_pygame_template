@@ -78,10 +78,7 @@ def criar_obstaculos():
 
 
 def criar_comida(cobra, obstaculos):
-    """Gera comida longe da cobra e dos obstaculos.
-
-    A repeticao limitada evita travamento caso a arena esteja muito cheia.
-    """
+    """Gera comida longe da cobra e dos obstaculos."""
     cores = [AMARELO, AZUL, ROSA, ROXO, VERDE]
     for _ in range(120):
         raio = random.randint(5, 9)

@@ -55,6 +55,7 @@ O jogador movimenta a cobra com teclado. A cobra anda continuamente e a direcao 
 ## Organizacao do codigo
 
 - `main.py`: ponto de entrada do projeto; chama `executar_jogo()`.
+- `jogo.py`: atalho de compatibilidade para executar o jogo antigo pela raiz.
 - `src/jogo.py`: loop principal, telas, eventos, renderizacao, comida, obstaculos e regras da partida.
 - `src/config.py`: constantes de tela, cores, FPS, titulo e caminhos.
 - `src/funcoes.py`: funcoes puras de regra, pontuacao, limites, crescimento, velocidade e colisao.
@@ -74,6 +75,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Tambem e possivel executar:
+
+```bash
+python jogo.py
+```
+
 ## Como executar os testes
 
 ```bash
@@ -84,6 +91,7 @@ python -m pytest
 
 - `requirements.txt`: lista as dependencias (`pygame` e `pytest`).
 - `data/recorde.txt`: guarda o melhor placar.
+- `data/ranking.txt`: arquivo auxiliar opcional herdado do template para historico simples.
 - `assets/imagens/spritesheet.bmp`: arquivo do template mantido no repositorio, embora o jogo final desenhe os elementos principais via Pygame.
 
 ## Recursos externos e autoria

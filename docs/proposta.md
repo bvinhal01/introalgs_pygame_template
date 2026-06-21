@@ -2,7 +2,6 @@
 
 ## 1. Nome provisiorio do jogo
 
-Exemplo:
 Snake Adventure: Arena Neon.
 
 ## 2. Integrantes do grupo
@@ -79,7 +78,7 @@ O jogo usa pontuacao e recorde salvo em arquivo. Nao ha vidas: uma colisao impor
 
 ## 12. Recursos externos previstos
 
-Nao pretendemos utilizar recursos externos na partida final. Os elementos visuais principais serao desenhados com formas do Pygame. O arquivo `assets/imagens/spritesheet.bmp` sera mantido por ser parte do template da disciplina.
+Nao pretendemos utilizar recursos externos na partida final. Os elementos visuais principais sao desenhados com formas do Pygame. O arquivo `assets/imagens/spritesheet.bmp` foi mantido por ser parte do template da disciplina.
 
 ## 13. Principais dificuldades esperadas
 

@@ -28,11 +28,7 @@ def verificar_colisao(retangulo_1, retangulo_2):
 
 
 def calcular_distancia_quadrada(posicao_a, posicao_b):
-    """Calcula distancia ao quadrado entre dois pontos 2D.
-
-    Usamos a distancia ao quadrado para evitar raiz quadrada em varias
-    verificacoes de colisao. Isso deixa a regra mais simples de testar.
-    """
+    """Calcula distancia ao quadrado entre dois pontos 2D."""
     dx = posicao_a[0] - posicao_b[0]
     dy = posicao_a[1] - posicao_b[1]
     return (dx * dx) + (dy * dy)
