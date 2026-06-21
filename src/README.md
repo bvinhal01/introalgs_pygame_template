@@ -1,15 +1,15 @@
-# Código-fonte (`src`)
+# Codigo-fonte (`src`)
 
-Esta pasta contém os módulos principais do jogo.
+Esta pasta contem os modulos principais do jogo.
 
 ## Arquivos
 
-- `jogo.py`: loop principal, eventos, atualização e renderização.
-- `config.py`: constantes globais (tela, cores, caminhos, FPS).
-- `funcoes.py`: funções auxiliares de regra e lógica.
-- `sprites.py`: carregamento e recorte de spritesheet.
-- `dados.py`: leitura e gravação de dados (recorde/ranking).
+- `jogo.py`: loop principal, eventos, atualizacao, renderizacao, telas e regras da partida.
+- `config.py`: constantes globais, como tamanho da tela, cores, caminhos e FPS.
+- `funcoes.py`: funcoes auxiliares de regra e logica, mantidas pequenas para testes.
+- `sprites.py`: suporte do template para carregamento e recorte de spritesheet.
+- `dados.py`: leitura e gravacao de dados, como o recorde.
 
-## Dica de evolução
+## Organizacao
 
-Quando o projeto crescer, mantenha módulos pequenos e separados por responsabilidade.
+O jogo visual fica em `src/jogo.py`, enquanto regras puras ficam em `src/funcoes.py`. Essa separacao facilita explicar o codigo e executar testes sem abrir a janela do Pygame.

@@ -2,6 +2,7 @@
 
 ## 1. Nome provisiorio do jogo
 
+Exemplo:
 Snake Adventure: Arena Neon.
 
 ## 2. Integrantes do grupo
